@@ -1,0 +1,186 @@
+
+header{
+  margin:0px;
+  padding:0px;
+  height: 100px;
+  width: 100%;
+  background-color: #000;
+  position :fixed ;
+  z-index: 10;
+}
+
+  
+ .p_logo{
+    width:100px;
+    float:left
+  }
+
+.header-right{
+  float:right;
+  margin-top:30px;
+  margin-right:10px;
+  font-family:'DIN'
+  color:gray;
+  opacity: 0.7;
+}
+.btn{
+  font-family:'DIN'
+  color:gray;
+  opacity: 0.7;
+}
+ .logo {
+    width: 30px;
+  }
+/*↑ここまでがheader*/
+
+/*↓bodyのメンテ*/
+body{
+  margin:0px;
+  padding:0px;
+  max-width: 100%;
+    /*background-color: #eee8aa;*/
+    /*margin: 0 auto;*/
+  text-align:center;
+  font-family:'Futura';
+}
+
+/*font-family: AXIS+SF Pro JP apple / Gotham netfex /Century Gothic Helvetica 定番 / Avenir samsumg / Futura LV / DIN tokyo2020
+font-family:'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif; */
+
+.sample1-title1{
+  position:absolute;
+  color:#000;
+  margin-top:150px;
+  z-index: 5;
+  opacity:0.5;
+  float:left;
+  text-align:left;
+} 
+
+.sample1-title1 h{
+  font-family:'Futura';
+  font-size: 60px;
+  letter-spacing: 20px;
+}
+
+.sample1-title1 p{
+  font-family:'SF Pro JP';
+  font-size: 5px;
+  letter-spacing: 7px;
+  width:70%;
+}
+
+.sample1-title1 span{
+  font-family:'SF Pro JP';
+  font-size: 20px;
+  letter-spacing: 20px;
+}
+
+.sample1-video{
+  z-index:1;
+}
+
+.a {
+  /* fz +tabキー*/
+  font-size:50px;
+  /*font-family:'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;*/
+  color:#000;
+  text-align: center;
+  padding-top:300px;
+  padding-bottom:100px;
+  z-index: 10;
+}
+
+.b{
+  font-size:20px;
+  /*font-family:'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;*/
+  color:gray;
+  text-align: center;
+  padding-bottom:100px;
+}
+
+.sample1 {letter-spacing: 30px;}
+.sample2 {letter-spacing: 10px;}
+.sample3 {letter-spacing: 4px;}
+/*↑タイトルの文字間調整*/
+
+.container2{
+  padding-bottom: 300px ;
+}
+
+
+/*SNSの登録*/
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.twitter {
+  background-color: #55acee;
+}
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+
+/*ここからportfolio*/
+
+.wrapper-portfolio {
+  margin-top:200px;
+  padding-top:50px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:#white;
+  text-align: center;
+}
+
+.hidden_box label {
+  padding: 0px;
+  font-weight: bold;
+  /*border: solid 2px black;*/
+  cursor :pointer;
+}
+
+.hidden_box label:hover {
+  background: #efefef;
+  opacity:0.5;
+}
+.hidden_box input {
+  display: none;
+}
+.hidden_box .hidden_show {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+.hidden_box input:checked ~ .hidden_show {
+  padding: 10px 0;
+  height: auto;
+  opacity: 1;
+}
+
+
+.portfolio{
+  width:90%;
+margin-left:auto;
+margin-right:auto;
+margin-top:0px;
+margin-bottom:0px;
+}
+
+.portfolio p{
+float:left;
+opacity: 0.7;
+font-size:10px;
+text-indent: 1em;
+}
+
