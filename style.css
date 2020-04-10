@@ -63,7 +63,7 @@ font-family:'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Go
   letter-spacing: 20px;
 }
 
-.sample1-title1 p{
+div. sample1-title1 p{
   font-family:'SF Pro JP';
   font-size: 30px;
   letter-spacing: 7px;
