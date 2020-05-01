@@ -1,1 +1,0 @@
-# koichibass1224
